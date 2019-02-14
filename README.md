@@ -20,6 +20,10 @@ Make sure to do a pod install first, then setup your .xenvrc file and build the 
 
 Right now everything is hard coded except for the launcher items. Create a .xenvrc file in your home directory, based on the sample-xenvrc file in the repository.
 
+The .xenvrc file should contain a full path to a .app file, one per line. It will try to pull the icon right from the .app file, but that doesn't always work. If not, you can add a | and then a path to a custom icon.
+
+You can also add new-iterm as an app path, which runs some Applescript to tell the running iterm instance to open a new window.
+
 #### Usage
 
 You'll want to setup your chunkwm config to add padding around the top, bottom, and sides to line up with the XEnv tools. You may also want to right click on the XEnv dock icon and set it to show on all desktops.
@@ -36,5 +40,9 @@ The control bar has the following buttons, from left to right:
 * Switch everything to floating mode
 * Switch everything to bsp tiling mode
 
+Click the Apple icon in the upper left to start Activity Monitor.
 
+Click the volume icon to mute the default audio.
+
+Hover over audio, wifi, battery, and time to get some extra info.
 
