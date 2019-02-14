@@ -3,7 +3,7 @@
 
 This is designed for use with chunkwm (or maybe other window managers) with padding around your screen edges, and dock and menu bar set to auto-hide. It gives you a launcher, CPU usage graphs, quick controls for chunkwm, and status for audio, wifi, etc.
 
-I created this for my own use, and there is a lot of hard coded sizes, control layouts, etc.
+I created this for my own use, and there are a lot of hard coded sizes, control layouts, etc.
 
 ![Screenshot](https://github.com/bensinc/XEnv/raw/master/screenshot.png "Screenshot")
 
