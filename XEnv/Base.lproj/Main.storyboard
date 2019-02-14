@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="RbF-fK-Q8D">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Application-->
+        <scene sceneID="JPo-4y-FX3">
+            <objects>
+                <application id="hnw-xV-0zn" sceneMemberID="viewController">
+                    <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
+                        <items>
+                            <menuItem title="BenLaunch" id="1Xt-HY-uBw">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="BenLaunch" systemMenu="apple" id="uQy-DD-JDr">
+                                    <items>
+                                        <menuItem title="About BenLaunch" id="5kV-Vb-QxS">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
+                                        <menuItem title="Quit BenLaunch" keyEquivalent="q" id="4sb-4s-VLi">
+                                            <connections>
+                                                <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
+                    </connections>
+                </application>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="BenLaunch" customModuleProvider="target"/>
+                <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+                <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75" y="0.0"/>
+        </scene>
+        <!--Window Controller-->
+        <scene sceneID="R2V-B0-nI4">
+            <objects>
+                <windowController storyboardIdentifier="Launcher Controller" id="B8D-0N-5wS" sceneMemberID="viewController">
+                    <window key="window" identifier="Launcher Controller" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hasShadow="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                        <windowStyleMask key="styleMask" resizable="YES"/>
+                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+                        <rect key="contentRect" x="196" y="240" width="480" height="270"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
+                        <connections>
+                            <outlet property="delegate" destination="B8D-0N-5wS" id="98r-iN-zZc"/>
+                        </connections>
+                    </window>
+                    <connections>
+                        <segue destination="XfG-lQ-9wD" kind="relationship" relationship="window.shadowedContentViewController" id="cq2-FE-JQM"/>
+                    </connections>
+                </windowController>
+                <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75" y="250"/>
+        </scene>
+        <!--Window Controller-->
+        <scene sceneID="aO0-98-3bU">
+            <objects>
+                <windowController id="RbF-fK-Q8D" sceneMemberID="viewController">
+                    <window key="window" identifier="statusWindow" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hasShadow="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="XgU-4H-DXC">
+                        <windowStyleMask key="styleMask" resizable="YES"/>
+                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+                        <rect key="contentRect" x="425" y="323" width="480" height="270"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1080"/>
+                        <connections>
+                            <outlet property="delegate" destination="RbF-fK-Q8D" id="AyQ-D5-LwX"/>
+                        </connections>
+                    </window>
+                    <connections>
+                        <segue destination="NtC-I2-BGc" kind="relationship" relationship="window.shadowedContentViewController" id="J2U-yD-pJr"/>
+                    </connections>
+                </windowController>
+                <customObject id="OgJ-Vb-QXJ" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="700" y="262"/>
+        </scene>
+        <!--Window Controller-->
+        <scene sceneID="rXJ-ug-VVN">
+            <objects>
+                <windowController storyboardIdentifier="Left Status Controller" id="SEg-1V-rVE" sceneMemberID="viewController">
+                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hasShadow="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="fmG-gZ-RwK">
+                        <windowStyleMask key="styleMask" resizable="YES"/>
+                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+                        <rect key="contentRect" x="425" y="323" width="480" height="270"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1080"/>
+                        <connections>
+                            <outlet property="delegate" destination="SEg-1V-rVE" id="wHI-Yj-qHS"/>
+                        </connections>
+                    </window>
+                    <connections>
+                        <segue destination="TSW-IL-fru" kind="relationship" relationship="window.shadowedContentViewController" id="XL5-6q-yfb"/>
+                    </connections>
+                </windowController>
+                <customObject id="GRX-pf-Kl5" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1264" y="261"/>
+        </scene>
+        <!--Window Controller-->
+        <scene sceneID="qvv-at-44Q">
+            <objects>
+                <windowController storyboardIdentifier="Bottom Right Controller" id="cka-N4-Ulk" sceneMemberID="viewController">
+                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hasShadow="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="VEt-1Y-cJx">
+                        <windowStyleMask key="styleMask" resizable="YES"/>
+                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+                        <rect key="contentRect" x="425" y="323" width="480" height="270"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1440" height="900"/>
+                        <connections>
+                            <outlet property="delegate" destination="cka-N4-Ulk" id="TzI-C5-vKz"/>
+                        </connections>
+                    </window>
+                    <connections>
+                        <segue destination="M1Y-ni-yGb" kind="relationship" relationship="window.shadowedContentViewController" id="aBX-Fc-ucL"/>
+                    </connections>
+                </windowController>
+                <customObject id="YNi-n4-Xv9" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1803" y="274"/>
+        </scene>
+        <!--Bottom Right View Controller-->
+        <scene sceneID="oiD-Id-y81">
+            <objects>
+                <viewController id="M1Y-ni-yGb" customClass="BottomRightViewController" customModule="BenLaunch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="aoz-71-vC6">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </view>
+                </viewController>
+                <customObject id="loN-YN-hBS" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1803" y="668"/>
+        </scene>
+        <!--Left Status View View Controller-->
+        <scene sceneID="hKz-mF-bZS">
+            <objects>
+                <viewController id="TSW-IL-fru" customClass="LeftStatusViewViewController" customModule="BenLaunch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="qTf-LZ-Tm5">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </view>
+                </viewController>
+                <customObject id="TI6-uT-trK" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1264" y="668"/>
+        </scene>
+        <!--Status View Controller-->
+        <scene sceneID="swC-To-3YP">
+            <objects>
+                <viewController id="NtC-I2-BGc" customClass="StatusViewController" customModule="BenLaunch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="1FY-PG-Ac6">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </view>
+                </viewController>
+                <customObject id="uu0-bU-IZf" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="700" y="655"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hIz-AP-VOD">
+            <objects>
+                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="BenLaunch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </view>
+                </viewController>
+                <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75" y="655"/>
+        </scene>
+    </scenes>
+</document>

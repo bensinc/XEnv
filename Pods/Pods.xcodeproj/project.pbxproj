@@ -1,0 +1,999 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01BC17A4F36FA2D194C33891E7EC4AD1 /* Amazing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E614BEEADA3643AC9B3BFB952E5D5C /* Amazing.swift */; };
+		1017B8341D08AEBF04B9662065D214CA /* Awesome.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 299D0623C3AFFDA006ECB6EA6AE13D74 /* Awesome.bundle */; };
+		114B45707B0B98883E1869F8E1CDCF6F /* Crossplatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B34500EC52C85E63F71C05F56598140 /* Crossplatform.swift */; };
+		1CA43BBE2975ADDC9F3A269FAA573C7E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED1E8DE19E4DFF6EEE0724CAF6173D5 /* Cocoa.framework */; };
+		2264FAA1D4A30BD4CE04AD5B3EFBCB00 /* fa-brands-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AFB774FA9D726EC7B45437D3818342E /* fa-brands-400.ttf */; };
+		23E68708EECB6CBA52062DA521626A89 /* AMCoreAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = DC503561092A095435AD1BB3BD155583 /* AMCoreAudio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D130D52BFFDF88B8E4031482F598498 /* fa-solid-900.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48E416CBB82FE36C9F655691F42581B7 /* fa-solid-900.ttf */; };
+		2F2A75338F77826A678A71F4CF58F21F /* Pods-XEnv-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7703031604B9A0D754CF7A29F700756C /* Pods-XEnv-dummy.m */; };
+		3D5E26AD8F2E0D059C705AD9CFE5CECA /* Amazing+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7DCFF797D44C651C37B1ECF54F42F2 /* Amazing+Tools.swift */; };
+		3EEC9145E86A35CAE3A64823660B6213 /* Pods-XEnv-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A42BAB2CFEC80E126670EEC30BB85667 /* Pods-XEnv-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F235F8D699BE5EA83422803C131F643 /* Bool+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9925FDDB495A015C0DC6A3372A97EE39 /* Bool+Extensions.swift */; };
+		509BA7B5E3809C87A8A571FF2CAF4ABE /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285AE01B4AED81EBE446F5FE88064C56 /* Utils.swift */; };
+		571DD1CF8EE4C391259CFCEFE1B31E24 /* AwesomeFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC511DED7280C1A25979095365121A2 /* AwesomeFont.swift */; };
+		571FC6404670798137F35B1753E4B558 /* AwesomeEnum-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A0AF1001CDEBB67ABE34F398A9006E /* AwesomeEnum-dummy.m */; };
+		5844336D074D16BCB0EF670BD27E20C0 /* AudioHardware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096574BF020FDB5D433D4E1B7BFE98CE /* AudioHardware.swift */; };
+		60CBBBC385FBCE71B968EA7BA5B6EC6F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E98E16AA2C42CB5CE7730558B56EF1A /* CoreText.framework */; };
+		6B67C1BAA7D48BDD3F5C46DF0855C536 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED1E8DE19E4DFF6EEE0724CAF6173D5 /* Cocoa.framework */; };
+		7B9DAB380B21FBD2C5FC9048C46E9373 /* Awesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3628BDDC3E3BED64F29BA2A3F4936DC3 /* Awesome.swift */; };
+		7F76E7C378F84F4BA857392FF7762E37 /* AudioStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = A470089899C22C1489AE4FC5AEA34E77 /* AudioStream.swift */; };
+		83A8AF56920144D558A08E37F5F81FB9 /* AudioObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003F1A6B5FA54BF450754FBAE9CAFF36 /* AudioObject.swift */; };
+		855C9D6DD859954EAC0860FB120BE354 /* AMCoreAudio-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F78F05F902F6782EE26F5DB343F8DE /* AMCoreAudio-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A83B59882CA5B1A934E07EA146056BF /* AudioDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E67607B75A7335B6A04C2C8751695B /* AudioDevice.swift */; };
+		A070E51C9A9C2596041EE32F6D781B71 /* AwesomePro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1B42289C7B932E96428774A060D733 /* AwesomePro.swift */; };
+		B0822AB93E14321008C42B3460700C34 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45738DD80622679DE965ADA1A5DFD709 /* Types.swift */; };
+		B1E8FB3CF6F4973D9664A3C3B1D64289 /* StringProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816EF738943D98D0DDE5422FF5827F0E /* StringProtocol.swift */; };
+		BAFE9B052EF2329FAB4841A810394130 /* fa-regular-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AEE043FB31A9D4FBC62FD632C372682 /* fa-regular-400.ttf */; };
+		BDEDEC6C08874C8DE9DA7BCF4F2642F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BEC3878812EA01CBB5302462A4B3483 /* CoreGraphics.framework */; };
+		C13FB5BDA7F2C8F9BDA9BA729313350D /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6BDC1F0C42AD2B9A0427609BB5916 /* Fonts.swift */; };
+		CAB5216BC45C15154CBFFCB1B476EA51 /* AMCoreAudio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA66E367AA8483A8AD5CB269D98BC84 /* AMCoreAudio-dummy.m */; };
+		CF3EFEA25F3827C407B79AC84616D369 /* NSAttributedString+Awesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F731B7871A59A23E9EBE032AAEFFD21B /* NSAttributedString+Awesome.swift */; };
+		E68729E17D5044B9512FE10A391DD507 /* AwesomeEnum-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5A71596F8C286F9E99A2153FA0C050D /* AwesomeEnum-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8F1F885664CB21ECA327670C8BFF058 /* BundleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560E0589269B77E9B6D8F448787F9402 /* BundleInfo.swift */; };
+		EB49F7E7C5A8C684D59E3176F19FA590 /* Image+Awesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C40476948DF358C8EDC9A0CD27B6E /* Image+Awesome.swift */; };
+		EF43DFCAF3DEFB350E7FEBC0C0FD84D5 /* NotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610A840664C05430A64BF84B1A22E4A1 /* NotificationCenter.swift */; };
+		F3925A61DD60455A1A3623793930BFD7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED1E8DE19E4DFF6EEE0724CAF6173D5 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49BC549FBB21F6EC04C8939F3485F906 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65EA0CF9AFE3284489C1BCA16B1CE7F9;
+			remoteInfo = "AwesomeEnum-Awesome";
+		};
+		6E2CAB2242608DF35280DCA664DF2F89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF9D14C6EABB1E581570E36F350F726D;
+			remoteInfo = AwesomeEnum;
+		};
+		A0CC8D700FE87CAA6731D489D369C33C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F366F5A301121CE1CFFCC3DCA82F8BB5;
+			remoteInfo = AMCoreAudio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003F1A6B5FA54BF450754FBAE9CAFF36 /* AudioObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioObject.swift; path = AMCoreAudio/AudioObject.swift; sourceTree = "<group>"; };
+		03D2772779D75C4741F387F7DF5C1EEA /* Pods-XEnv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XEnv.debug.xcconfig"; sourceTree = "<group>"; };
+		096574BF020FDB5D433D4E1B7BFE98CE /* AudioHardware.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioHardware.swift; path = AMCoreAudio/AudioHardware.swift; sourceTree = "<group>"; };
+		0AA66E367AA8483A8AD5CB269D98BC84 /* AMCoreAudio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMCoreAudio-dummy.m"; sourceTree = "<group>"; };
+		0B7DCFF797D44C651C37B1ECF54F42F2 /* Amazing+Tools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Amazing+Tools.swift"; path = "Classes/Extensions/Amazing+Tools.swift"; sourceTree = "<group>"; };
+		0BEC3878812EA01CBB5302462A4B3483 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		19A0AF1001CDEBB67ABE34F398A9006E /* AwesomeEnum-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AwesomeEnum-dummy.m"; sourceTree = "<group>"; };
+		1AFB774FA9D726EC7B45437D3818342E /* fa-brands-400.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "fa-brands-400.ttf"; path = "Assets/fa-brands-400.ttf"; sourceTree = "<group>"; };
+		1B34500EC52C85E63F71C05F56598140 /* Crossplatform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Crossplatform.swift; path = Classes/Libs/Crossplatform.swift; sourceTree = "<group>"; };
+		1C9AB9C713749D9B25701D5D71D59139 /* Pods-XEnv.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XEnv.modulemap"; sourceTree = "<group>"; };
+		21F78F05F902F6782EE26F5DB343F8DE /* AMCoreAudio-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMCoreAudio-umbrella.h"; sourceTree = "<group>"; };
+		285AE01B4AED81EBE446F5FE88064C56 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = AMCoreAudio/Utils.swift; sourceTree = "<group>"; };
+		299D0623C3AFFDA006ECB6EA6AE13D74 /* Awesome.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Awesome.bundle; path = "AwesomeEnum-Awesome.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3628BDDC3E3BED64F29BA2A3F4936DC3 /* Awesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Awesome.swift; path = Classes/Enums/Awesome.swift; sourceTree = "<group>"; };
+		3787474DEB77CED62C90A4BD9BDBBCA1 /* AMCoreAudio.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMCoreAudio.xcconfig; sourceTree = "<group>"; };
+		3935E1FC61F6C73856545E0E0B3520C5 /* AwesomeEnum.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AwesomeEnum.xcconfig; sourceTree = "<group>"; };
+		45738DD80622679DE965ADA1A5DFD709 /* Types.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Types.swift; path = AMCoreAudio/Types.swift; sourceTree = "<group>"; };
+		48E416CBB82FE36C9F655691F42581B7 /* fa-solid-900.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "fa-solid-900.ttf"; path = "Assets/fa-solid-900.ttf"; sourceTree = "<group>"; };
+		54C0C793F270C98ABEEEEB702C31DF74 /* Pods_XEnv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XEnv.framework; path = "Pods-XEnv.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		560E0589269B77E9B6D8F448787F9402 /* BundleInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BundleInfo.swift; path = AMCoreAudio/BundleInfo.swift; sourceTree = "<group>"; };
+		610A840664C05430A64BF84B1A22E4A1 /* NotificationCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationCenter.swift; path = AMCoreAudio/NotificationCenter.swift; sourceTree = "<group>"; };
+		6C1B42289C7B932E96428774A060D733 /* AwesomePro.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AwesomePro.swift; path = Classes/Enums/AwesomePro.swift; sourceTree = "<group>"; };
+		6CCA52996C2468C6FAC31DA8371EC5B7 /* ResourceBundle-Awesome-AwesomeEnum-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Awesome-AwesomeEnum-Info.plist"; sourceTree = "<group>"; };
+		6ED1E8DE19E4DFF6EEE0724CAF6173D5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		72E614BEEADA3643AC9B3BFB952E5D5C /* Amazing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Amazing.swift; path = Classes/Protocols/Amazing.swift; sourceTree = "<group>"; };
+		7703031604B9A0D754CF7A29F700756C /* Pods-XEnv-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XEnv-dummy.m"; sourceTree = "<group>"; };
+		7AEE043FB31A9D4FBC62FD632C372682 /* fa-regular-400.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "fa-regular-400.ttf"; path = "Assets/fa-regular-400.ttf"; sourceTree = "<group>"; };
+		7D689699B921AA2E38167DA5F3FB345A /* AwesomeEnum-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeEnum-prefix.pch"; sourceTree = "<group>"; };
+		7E98E16AA2C42CB5CE7730558B56EF1A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		816EF738943D98D0DDE5422FF5827F0E /* StringProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringProtocol.swift; path = Classes/Extensions/StringProtocol.swift; sourceTree = "<group>"; };
+		83E67607B75A7335B6A04C2C8751695B /* AudioDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioDevice.swift; path = AMCoreAudio/AudioDevice.swift; sourceTree = "<group>"; };
+		86677327A66A0C10C1E1732B04BFEA62 /* AwesomeEnum.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AwesomeEnum.modulemap; sourceTree = "<group>"; };
+		8D5390635DDA36DD5DEA27778BEA7E75 /* AMCoreAudio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMCoreAudio.modulemap; sourceTree = "<group>"; };
+		8DBBF5AAE5EDC30376791F497260A5EC /* Pods-XEnv-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XEnv-Info.plist"; sourceTree = "<group>"; };
+		8E77F604671DD80B37771EF96A658DE1 /* Pods-XEnv-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XEnv-frameworks.sh"; sourceTree = "<group>"; };
+		9293C0E796F28CEDF2BD9F0F3C63BC20 /* AMCoreAudio-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMCoreAudio-prefix.pch"; sourceTree = "<group>"; };
+		9925FDDB495A015C0DC6A3372A97EE39 /* Bool+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bool+Extensions.swift"; path = "AMCoreAudio/Bool+Extensions.swift"; sourceTree = "<group>"; };
+		9AD6BDC1F0C42AD2B9A0427609BB5916 /* Fonts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fonts.swift; path = Classes/Libs/Fonts.swift; sourceTree = "<group>"; };
+		9B0C40476948DF358C8EDC9A0CD27B6E /* Image+Awesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Image+Awesome.swift"; path = "Classes/Extensions/Image+Awesome.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DDEA92F967394D8A993B9B22A9C0624 /* AwesomeEnum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AwesomeEnum.framework; path = AwesomeEnum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A23C91B5E8C055CCE944D64B1ED94D /* AMCoreAudio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMCoreAudio.framework; path = AMCoreAudio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42BAB2CFEC80E126670EEC30BB85667 /* Pods-XEnv-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XEnv-umbrella.h"; sourceTree = "<group>"; };
+		A470089899C22C1489AE4FC5AEA34E77 /* AudioStream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioStream.swift; path = AMCoreAudio/AudioStream.swift; sourceTree = "<group>"; };
+		A5A71596F8C286F9E99A2153FA0C050D /* AwesomeEnum-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeEnum-umbrella.h"; sourceTree = "<group>"; };
+		A6FB07FBF9FDC468BAFC45D81BC7678A /* AwesomeEnum-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AwesomeEnum-Info.plist"; sourceTree = "<group>"; };
+		B785F5B13CBD29EF24F9512159536B62 /* Pods-XEnv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XEnv.release.xcconfig"; sourceTree = "<group>"; };
+		CFC511DED7280C1A25979095365121A2 /* AwesomeFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AwesomeFont.swift; path = Classes/Protocols/AwesomeFont.swift; sourceTree = "<group>"; };
+		DC503561092A095435AD1BB3BD155583 /* AMCoreAudio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMCoreAudio.h; path = AMCoreAudio/AMCoreAudio.h; sourceTree = "<group>"; };
+		DDAF3C17A5AA1C45976079E87CB2E281 /* Pods-XEnv-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XEnv-acknowledgements.plist"; sourceTree = "<group>"; };
+		F731B7871A59A23E9EBE032AAEFFD21B /* NSAttributedString+Awesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+Awesome.swift"; path = "Classes/Extensions/NSAttributedString+Awesome.swift"; sourceTree = "<group>"; };
+		FBF7B2B28CD0C676ED5F4F53B35D530F /* Pods-XEnv-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XEnv-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FEB2EBDA1C309F3EBF2ECD9A0B1A8952 /* AMCoreAudio-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMCoreAudio-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13C3877813DA9CB02E71C9C19698AD0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E97520C88C6B41D0BD1C54175AE9ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3925A61DD60455A1A3623793930BFD7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B73EC526CEEE30FBDAA275BEEC584542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA43BBE2975ADDC9F3A269FAA573C7E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6CAC94411E02498E2C22BD66FD790DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B67C1BAA7D48BDD3F5C46DF0855C536 /* Cocoa.framework in Frameworks */,
+				BDEDEC6C08874C8DE9DA7BCF4F2642F9 /* CoreGraphics.framework in Frameworks */,
+				60CBBBC385FBCE71B968EA7BA5B6EC6F /* CoreText.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		012DBBCB6D7B7C6D0B683D4289AA94A9 /* AwesomeEnum */ = {
+			isa = PBXGroup;
+			children = (
+				72E614BEEADA3643AC9B3BFB952E5D5C /* Amazing.swift */,
+				0B7DCFF797D44C651C37B1ECF54F42F2 /* Amazing+Tools.swift */,
+				3628BDDC3E3BED64F29BA2A3F4936DC3 /* Awesome.swift */,
+				CFC511DED7280C1A25979095365121A2 /* AwesomeFont.swift */,
+				6C1B42289C7B932E96428774A060D733 /* AwesomePro.swift */,
+				1B34500EC52C85E63F71C05F56598140 /* Crossplatform.swift */,
+				9AD6BDC1F0C42AD2B9A0427609BB5916 /* Fonts.swift */,
+				9B0C40476948DF358C8EDC9A0CD27B6E /* Image+Awesome.swift */,
+				F731B7871A59A23E9EBE032AAEFFD21B /* NSAttributedString+Awesome.swift */,
+				816EF738943D98D0DDE5422FF5827F0E /* StringProtocol.swift */,
+				C16B7710B4078BBE8ADB327D7DF24A47 /* Resources */,
+				F7D917FF57E77C9AE24BF548A895B82C /* Support Files */,
+			);
+			name = AwesomeEnum;
+			path = AwesomeEnum;
+			sourceTree = "<group>";
+		};
+		06473FE76363359EDAB57B0BF83479FD /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				6ED1E8DE19E4DFF6EEE0724CAF6173D5 /* Cocoa.framework */,
+				0BEC3878812EA01CBB5302462A4B3483 /* CoreGraphics.framework */,
+				7E98E16AA2C42CB5CE7730558B56EF1A /* CoreText.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		0B53810B5479B4D1FACDEB7DBE0840DB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D5390635DDA36DD5DEA27778BEA7E75 /* AMCoreAudio.modulemap */,
+				3787474DEB77CED62C90A4BD9BDBBCA1 /* AMCoreAudio.xcconfig */,
+				0AA66E367AA8483A8AD5CB269D98BC84 /* AMCoreAudio-dummy.m */,
+				FEB2EBDA1C309F3EBF2ECD9A0B1A8952 /* AMCoreAudio-Info.plist */,
+				9293C0E796F28CEDF2BD9F0F3C63BC20 /* AMCoreAudio-prefix.pch */,
+				21F78F05F902F6782EE26F5DB343F8DE /* AMCoreAudio-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AMCoreAudio";
+			sourceTree = "<group>";
+		};
+		26BAE2D3B0D105DD9C21B08A1F6A3AB9 /* AMCoreAudio */ = {
+			isa = PBXGroup;
+			children = (
+				DC503561092A095435AD1BB3BD155583 /* AMCoreAudio.h */,
+				83E67607B75A7335B6A04C2C8751695B /* AudioDevice.swift */,
+				096574BF020FDB5D433D4E1B7BFE98CE /* AudioHardware.swift */,
+				003F1A6B5FA54BF450754FBAE9CAFF36 /* AudioObject.swift */,
+				A470089899C22C1489AE4FC5AEA34E77 /* AudioStream.swift */,
+				9925FDDB495A015C0DC6A3372A97EE39 /* Bool+Extensions.swift */,
+				560E0589269B77E9B6D8F448787F9402 /* BundleInfo.swift */,
+				610A840664C05430A64BF84B1A22E4A1 /* NotificationCenter.swift */,
+				45738DD80622679DE965ADA1A5DFD709 /* Types.swift */,
+				285AE01B4AED81EBE446F5FE88064C56 /* Utils.swift */,
+				0B53810B5479B4D1FACDEB7DBE0840DB /* Support Files */,
+			);
+			name = AMCoreAudio;
+			path = AMCoreAudio;
+			sourceTree = "<group>";
+		};
+		7C47617DC07D33785F69D43891801E60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26BAE2D3B0D105DD9C21B08A1F6A3AB9 /* AMCoreAudio */,
+				012DBBCB6D7B7C6D0B683D4289AA94A9 /* AwesomeEnum */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A3CDB250FFEFB42CA2C68F1FBD92997D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06473FE76363359EDAB57B0BF83479FD /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A882FA007E511419FE49CD43D65E91BC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E970A602339B6CBB628F22362B6835DF /* Pods-XEnv */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C16B7710B4078BBE8ADB327D7DF24A47 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1AFB774FA9D726EC7B45437D3818342E /* fa-brands-400.ttf */,
+				7AEE043FB31A9D4FBC62FD632C372682 /* fa-regular-400.ttf */,
+				48E416CBB82FE36C9F655691F42581B7 /* fa-solid-900.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A3CDB250FFEFB42CA2C68F1FBD92997D /* Frameworks */,
+				7C47617DC07D33785F69D43891801E60 /* Pods */,
+				F25EF87644007B052CCEC8BAEA0A1DCE /* Products */,
+				A882FA007E511419FE49CD43D65E91BC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E970A602339B6CBB628F22362B6835DF /* Pods-XEnv */ = {
+			isa = PBXGroup;
+			children = (
+				1C9AB9C713749D9B25701D5D71D59139 /* Pods-XEnv.modulemap */,
+				FBF7B2B28CD0C676ED5F4F53B35D530F /* Pods-XEnv-acknowledgements.markdown */,
+				DDAF3C17A5AA1C45976079E87CB2E281 /* Pods-XEnv-acknowledgements.plist */,
+				7703031604B9A0D754CF7A29F700756C /* Pods-XEnv-dummy.m */,
+				8E77F604671DD80B37771EF96A658DE1 /* Pods-XEnv-frameworks.sh */,
+				8DBBF5AAE5EDC30376791F497260A5EC /* Pods-XEnv-Info.plist */,
+				A42BAB2CFEC80E126670EEC30BB85667 /* Pods-XEnv-umbrella.h */,
+				03D2772779D75C4741F387F7DF5C1EEA /* Pods-XEnv.debug.xcconfig */,
+				B785F5B13CBD29EF24F9512159536B62 /* Pods-XEnv.release.xcconfig */,
+			);
+			name = "Pods-XEnv";
+			path = "Target Support Files/Pods-XEnv";
+			sourceTree = "<group>";
+		};
+		F25EF87644007B052CCEC8BAEA0A1DCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1A23C91B5E8C055CCE944D64B1ED94D /* AMCoreAudio.framework */,
+				299D0623C3AFFDA006ECB6EA6AE13D74 /* Awesome.bundle */,
+				9DDEA92F967394D8A993B9B22A9C0624 /* AwesomeEnum.framework */,
+				54C0C793F270C98ABEEEEB702C31DF74 /* Pods_XEnv.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7D917FF57E77C9AE24BF548A895B82C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86677327A66A0C10C1E1732B04BFEA62 /* AwesomeEnum.modulemap */,
+				3935E1FC61F6C73856545E0E0B3520C5 /* AwesomeEnum.xcconfig */,
+				19A0AF1001CDEBB67ABE34F398A9006E /* AwesomeEnum-dummy.m */,
+				A6FB07FBF9FDC468BAFC45D81BC7678A /* AwesomeEnum-Info.plist */,
+				7D689699B921AA2E38167DA5F3FB345A /* AwesomeEnum-prefix.pch */,
+				A5A71596F8C286F9E99A2153FA0C050D /* AwesomeEnum-umbrella.h */,
+				6CCA52996C2468C6FAC31DA8371EC5B7 /* ResourceBundle-Awesome-AwesomeEnum-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AwesomeEnum";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08CB102A3D3515AC904EC3D9DB98E1CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EEC9145E86A35CAE3A64823660B6213 /* Pods-XEnv-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		429EAA48315649D54672737729303390 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855C9D6DD859954EAC0860FB120BE354 /* AMCoreAudio-umbrella.h in Headers */,
+				23E68708EECB6CBA52062DA521626A89 /* AMCoreAudio.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8498D27E37F909D31AC8CF5D825AF8EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E68729E17D5044B9512FE10A391DD507 /* AwesomeEnum-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		27FDEEF869FE337336FFD4C4B7695A79 /* Pods-XEnv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FC3234F413AC05A328F05601E6C50AA /* Build configuration list for PBXNativeTarget "Pods-XEnv" */;
+			buildPhases = (
+				08CB102A3D3515AC904EC3D9DB98E1CA /* Headers */,
+				E0D7ECA3AE4C2213994304F9168939D2 /* Sources */,
+				B73EC526CEEE30FBDAA275BEEC584542 /* Frameworks */,
+				ABDC481F0A72B9168ADF282A96303EA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22E6F12B5BB1988E6A7B3D8017773747 /* PBXTargetDependency */,
+				F9344226F43B258CEF23776193CEB9FB /* PBXTargetDependency */,
+			);
+			name = "Pods-XEnv";
+			productName = "Pods-XEnv";
+			productReference = 54C0C793F270C98ABEEEEB702C31DF74 /* Pods_XEnv.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		65EA0CF9AFE3284489C1BCA16B1CE7F9 /* AwesomeEnum-Awesome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BFD6EE15011D5B80CEA0D6B83BE1D7C /* Build configuration list for PBXNativeTarget "AwesomeEnum-Awesome" */;
+			buildPhases = (
+				DFA859D9DC2B3253DF556DC855FB0951 /* Sources */,
+				13C3877813DA9CB02E71C9C19698AD0D /* Frameworks */,
+				9AF4429B46E0911122717B7B895DCA80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AwesomeEnum-Awesome";
+			productName = "AwesomeEnum-Awesome";
+			productReference = 299D0623C3AFFDA006ECB6EA6AE13D74 /* Awesome.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F366F5A301121CE1CFFCC3DCA82F8BB5 /* AMCoreAudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5758812E91241D84485BDD17828FFED6 /* Build configuration list for PBXNativeTarget "AMCoreAudio" */;
+			buildPhases = (
+				429EAA48315649D54672737729303390 /* Headers */,
+				D0B863A68D5DA523B2F0DAC1F5BEAABD /* Sources */,
+				92E97520C88C6B41D0BD1C54175AE9ED /* Frameworks */,
+				671CFCC3B7DD31DCCF2A870BCFEA565D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMCoreAudio;
+			productName = AMCoreAudio;
+			productReference = A1A23C91B5E8C055CCE944D64B1ED94D /* AMCoreAudio.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF9D14C6EABB1E581570E36F350F726D /* AwesomeEnum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC8E74FD931A02AAB4261C571CE8E02 /* Build configuration list for PBXNativeTarget "AwesomeEnum" */;
+			buildPhases = (
+				8498D27E37F909D31AC8CF5D825AF8EB /* Headers */,
+				A36A4FA582566B761420AC48B6CF84F4 /* Sources */,
+				C6CAC94411E02498E2C22BD66FD790DA /* Frameworks */,
+				93121AEB441775B3E00864E2216D3C5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41648F8B9C676A841FEDF36859C163D4 /* PBXTargetDependency */,
+			);
+			name = AwesomeEnum;
+			productName = AwesomeEnum;
+			productReference = 9DDEA92F967394D8A993B9B22A9C0624 /* AwesomeEnum.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F25EF87644007B052CCEC8BAEA0A1DCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F366F5A301121CE1CFFCC3DCA82F8BB5 /* AMCoreAudio */,
+				FF9D14C6EABB1E581570E36F350F726D /* AwesomeEnum */,
+				65EA0CF9AFE3284489C1BCA16B1CE7F9 /* AwesomeEnum-Awesome */,
+				27FDEEF869FE337336FFD4C4B7695A79 /* Pods-XEnv */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		671CFCC3B7DD31DCCF2A870BCFEA565D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93121AEB441775B3E00864E2216D3C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1017B8341D08AEBF04B9662065D214CA /* Awesome.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF4429B46E0911122717B7B895DCA80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2264FAA1D4A30BD4CE04AD5B3EFBCB00 /* fa-brands-400.ttf in Resources */,
+				BAFE9B052EF2329FAB4841A810394130 /* fa-regular-400.ttf in Resources */,
+				2D130D52BFFDF88B8E4031482F598498 /* fa-solid-900.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDC481F0A72B9168ADF282A96303EA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A36A4FA582566B761420AC48B6CF84F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5E26AD8F2E0D059C705AD9CFE5CECA /* Amazing+Tools.swift in Sources */,
+				01BC17A4F36FA2D194C33891E7EC4AD1 /* Amazing.swift in Sources */,
+				7B9DAB380B21FBD2C5FC9048C46E9373 /* Awesome.swift in Sources */,
+				571FC6404670798137F35B1753E4B558 /* AwesomeEnum-dummy.m in Sources */,
+				571DD1CF8EE4C391259CFCEFE1B31E24 /* AwesomeFont.swift in Sources */,
+				A070E51C9A9C2596041EE32F6D781B71 /* AwesomePro.swift in Sources */,
+				114B45707B0B98883E1869F8E1CDCF6F /* Crossplatform.swift in Sources */,
+				C13FB5BDA7F2C8F9BDA9BA729313350D /* Fonts.swift in Sources */,
+				EB49F7E7C5A8C684D59E3176F19FA590 /* Image+Awesome.swift in Sources */,
+				CF3EFEA25F3827C407B79AC84616D369 /* NSAttributedString+Awesome.swift in Sources */,
+				B1E8FB3CF6F4973D9664A3C3B1D64289 /* StringProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B863A68D5DA523B2F0DAC1F5BEAABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB5216BC45C15154CBFFCB1B476EA51 /* AMCoreAudio-dummy.m in Sources */,
+				9A83B59882CA5B1A934E07EA146056BF /* AudioDevice.swift in Sources */,
+				5844336D074D16BCB0EF670BD27E20C0 /* AudioHardware.swift in Sources */,
+				83A8AF56920144D558A08E37F5F81FB9 /* AudioObject.swift in Sources */,
+				7F76E7C378F84F4BA857392FF7762E37 /* AudioStream.swift in Sources */,
+				4F235F8D699BE5EA83422803C131F643 /* Bool+Extensions.swift in Sources */,
+				E8F1F885664CB21ECA327670C8BFF058 /* BundleInfo.swift in Sources */,
+				EF43DFCAF3DEFB350E7FEBC0C0FD84D5 /* NotificationCenter.swift in Sources */,
+				B0822AB93E14321008C42B3460700C34 /* Types.swift in Sources */,
+				509BA7B5E3809C87A8A571FF2CAF4ABE /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA859D9DC2B3253DF556DC855FB0951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0D7ECA3AE4C2213994304F9168939D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2A75338F77826A678A71F4CF58F21F /* Pods-XEnv-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22E6F12B5BB1988E6A7B3D8017773747 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AMCoreAudio;
+			target = F366F5A301121CE1CFFCC3DCA82F8BB5 /* AMCoreAudio */;
+			targetProxy = A0CC8D700FE87CAA6731D489D369C33C /* PBXContainerItemProxy */;
+		};
+		41648F8B9C676A841FEDF36859C163D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AwesomeEnum-Awesome";
+			target = 65EA0CF9AFE3284489C1BCA16B1CE7F9 /* AwesomeEnum-Awesome */;
+			targetProxy = 49BC549FBB21F6EC04C8939F3485F906 /* PBXContainerItemProxy */;
+		};
+		F9344226F43B258CEF23776193CEB9FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AwesomeEnum;
+			target = FF9D14C6EABB1E581570E36F350F726D /* AwesomeEnum */;
+			targetProxy = 6E2CAB2242608DF35280DCA664DF2F89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D6D1B99AADA104B6FC5F97FDD267979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3935E1FC61F6C73856545E0E0B3520C5 /* AwesomeEnum.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/AwesomeEnum/AwesomeEnum-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AwesomeEnum/AwesomeEnum-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/AwesomeEnum/AwesomeEnum.modulemap";
+				PRODUCT_MODULE_NAME = AwesomeEnum;
+				PRODUCT_NAME = AwesomeEnum;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B904AA88C7394504268662736C5AB8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3787474DEB77CED62C90A4BD9BDBBCA1 /* AMCoreAudio.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/AMCoreAudio/AMCoreAudio-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMCoreAudio/AMCoreAudio-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/AMCoreAudio/AMCoreAudio.modulemap";
+				PRODUCT_MODULE_NAME = AMCoreAudio;
+				PRODUCT_NAME = AMCoreAudio;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6EC46443E4EAA896F2924FFE29E7CEE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3935E1FC61F6C73856545E0E0B3520C5 /* AwesomeEnum.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AwesomeEnum";
+				INFOPLIST_FILE = "Target Support Files/AwesomeEnum/ResourceBundle-Awesome-AwesomeEnum-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = Awesome;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8A99932462BA5E66B4EB8AE19DCC2EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3935E1FC61F6C73856545E0E0B3520C5 /* AwesomeEnum.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AwesomeEnum";
+				INFOPLIST_FILE = "Target Support Files/AwesomeEnum/ResourceBundle-Awesome-AwesomeEnum-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = Awesome;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		92C4732BBFC0A5F1ECE5F91713640802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B785F5B13CBD29EF24F9512159536B62 /* Pods-XEnv.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-XEnv/Pods-XEnv-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-XEnv/Pods-XEnv.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97735B90B60C29A8D1118A0462F30A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C2C85B833CF52E1FE0244E67DAB777C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3935E1FC61F6C73856545E0E0B3520C5 /* AwesomeEnum.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/AwesomeEnum/AwesomeEnum-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AwesomeEnum/AwesomeEnum-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/AwesomeEnum/AwesomeEnum.modulemap";
+				PRODUCT_MODULE_NAME = AwesomeEnum;
+				PRODUCT_NAME = AwesomeEnum;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0A5C185E6F96F034A3680A0F734FD8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EB3EE546FAF9BBF4214B1FAF5F9A0364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3787474DEB77CED62C90A4BD9BDBBCA1 /* AMCoreAudio.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/AMCoreAudio/AMCoreAudio-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMCoreAudio/AMCoreAudio-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/AMCoreAudio/AMCoreAudio.modulemap";
+				PRODUCT_MODULE_NAME = AMCoreAudio;
+				PRODUCT_NAME = AMCoreAudio;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE19CA6A95F868D489F7F9DCC19289A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03D2772779D75C4741F387F7DF5C1EEA /* Pods-XEnv.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-XEnv/Pods-XEnv-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-XEnv/Pods-XEnv.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BFD6EE15011D5B80CEA0D6B83BE1D7C /* Build configuration list for PBXNativeTarget "AwesomeEnum-Awesome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EC46443E4EAA896F2924FFE29E7CEE1 /* Debug */,
+				8A99932462BA5E66B4EB8AE19DCC2EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC8E74FD931A02AAB4261C571CE8E02 /* Build configuration list for PBXNativeTarget "AwesomeEnum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2C85B833CF52E1FE0244E67DAB777C5 /* Debug */,
+				3D6D1B99AADA104B6FC5F97FDD267979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97735B90B60C29A8D1118A0462F30A17 /* Debug */,
+				D0A5C185E6F96F034A3680A0F734FD8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5758812E91241D84485BDD17828FFED6 /* Build configuration list for PBXNativeTarget "AMCoreAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B904AA88C7394504268662736C5AB8E /* Debug */,
+				EB3EE546FAF9BBF4214B1FAF5F9A0364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FC3234F413AC05A328F05601E6C50AA /* Build configuration list for PBXNativeTarget "Pods-XEnv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE19CA6A95F868D489F7F9DCC19289A2 /* Debug */,
+				92C4732BBFC0A5F1ECE5F91713640802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

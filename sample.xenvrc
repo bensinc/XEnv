@@ -1,0 +1,14 @@
+# Example .benlaunchrc
+# List application paths, one per line
+
+/Applications/iTerm.app|~/.xenvicons/ITerm2-icon.png
+new-iterm|~/.xenvicons/new-iterm.png
+/Applications/Safari.app
+/Applications/Atom.app
+/Applications/TIDAL.app
+/Applications/Spotify.app
+/Applications/Roon.app
+/Applications/Adobe Photoshop CC 2019/Adobe Photoshop CC 2019.app
+/Applications/Xcode.app
+/System/Library/CoreServices/Finder.app|~/.xenvicons/Finder.png
+/Applications/Messages.app
