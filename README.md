@@ -5,7 +5,7 @@ This is designed for use with chunkwm (or maybe other window managers) with padd
 
 I created this for my own use, and there is a lot of hard coded sizes, control layouts, etc.
 
-![Screenshot](https://github.com/bensinc/XEnv/raw/master/src/screenshot.png "Screenshot")
+![Screenshot](https://github.com/bensinc/XEnv/raw/master/screenshot.png "Screenshot")
 
 #### Todos:
 
@@ -26,7 +26,7 @@ You'll want to setup your chunkwm config to add padding around the top, bottom, 
 
 The control bar has the following buttons, from left to right:
 
-![Control Buttons](https://github.com/bensinc/XEnv/raw/master/src/controls.png "Control Buttons")
+![Control Buttons](https://github.com/bensinc/XEnv/raw/master/controls.png "Control Buttons")
 
 * Sleep the computer
 * Restart chunkwm (I have to do this when I go from my external to internal display, so I made it easy)
