@@ -11,32 +11,14 @@ import AwesomeEnum
 
 class BottomRightViewController: NSViewController {
     
-    @IBOutlet weak var testImageButton: NSButton!
+
     
-    var itemPaths: Array<String> = []
     var buttons: Array<NSButton> = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let home = FileManager.default.homeDirectoryForCurrentUser
-        
-        let rcUrl = home.appendingPathComponent(".benlaunchrc")
-        
-        do {
-            let files = try String(contentsOf: rcUrl, encoding: .utf8).components(separatedBy: .newlines)
-            
-            for path in files {
-                if (!path.hasPrefix("#") && path.count > 1) {
-                    itemPaths.append(path)
-                }
-            }
-            
-        }
-        catch {
-            print("Error opening ~/benlaunchrc")
-        }
-        
+
         // Do any additional setup after loading the view.
     }
     

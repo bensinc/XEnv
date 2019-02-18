@@ -11,18 +11,18 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="BenLaunch" id="1Xt-HY-uBw">
+                            <menuItem title="XEnv" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="BenLaunch" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="XEnv" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
-                                        <menuItem title="About BenLaunch" id="5kV-Vb-QxS">
+                                        <menuItem title="About XEnv" id="5kV-Vb-QxS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                                        <menuItem title="Quit BenLaunch" keyEquivalent="q" id="4sb-4s-VLi">
+                                        <menuItem title="Quit XEnv" keyEquivalent="q" id="4sb-4s-VLi">
                                             <connections>
                                                 <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
                                             </connections>
@@ -36,7 +36,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="BenLaunch" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="XEnv" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -129,7 +129,7 @@
         <!--Bottom Right View Controller-->
         <scene sceneID="oiD-Id-y81">
             <objects>
-                <viewController id="M1Y-ni-yGb" customClass="BottomRightViewController" customModule="BenLaunch" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="M1Y-ni-yGb" customClass="BottomRightViewController" customModule="XEnv" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="aoz-71-vC6">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -142,7 +142,7 @@
         <!--Left Status View View Controller-->
         <scene sceneID="hKz-mF-bZS">
             <objects>
-                <viewController id="TSW-IL-fru" customClass="LeftStatusViewViewController" customModule="BenLaunch" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="TSW-IL-fru" customClass="LeftStatusViewViewController" customModule="XEnv" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="qTf-LZ-Tm5">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -155,7 +155,7 @@
         <!--Status View Controller-->
         <scene sceneID="swC-To-3YP">
             <objects>
-                <viewController id="NtC-I2-BGc" customClass="StatusViewController" customModule="BenLaunch" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="NtC-I2-BGc" customClass="StatusViewController" customModule="XEnv" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="1FY-PG-Ac6">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -168,7 +168,7 @@
         <!--View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="BenLaunch" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="XEnv" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
