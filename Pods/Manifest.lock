@@ -7,7 +7,7 @@ DEPENDENCIES:
   - AwesomeEnum
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - AMCoreAudio
     - AwesomeEnum
 
@@ -17,4 +17,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 1937491eefca7ec11c8f88142b530bdedc217422
 
-COCOAPODS: 1.6.0
+COCOAPODS: 1.8.4

@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-XEnv/Pods-XEnv-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AMCoreAudio/AMCoreAudio.framework
+${BUILT_PRODUCTS_DIR}/AwesomeEnum/AwesomeEnum.framework

@@ -100,7 +100,7 @@ class BottomRightViewController: NSViewController {
         Timer.scheduledTimer(timeInterval: 10.0, target: self, selector: #selector(self.updateLayoutButtons), userInfo: nil, repeats: true)
         updateLayoutButtons()
         
-        Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(self.updateModeButtons), userInfo: nil, repeats: true)
+        Timer.scheduledTimer(timeInterval: 5.0, target: self, selector: #selector(self.updateModeButtons), userInfo: nil, repeats: true)
         updateModeButtons()
         
         

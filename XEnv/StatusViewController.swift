@@ -119,12 +119,16 @@ class StatusViewController: NSViewController, EventSubscriber {
 
     
     override func viewDidLoad() {
+
         
         super.viewDidLoad()
         
+        AwesomePro.loadFonts(from: Bundle.main)
+
+        
         // Show launcher window
         let launcherWindowController = NSStoryboard(name: "Main", bundle: nil).instantiateController(withIdentifier: NSStoryboard.SceneIdentifier("Launcher Controller")) as! NSWindowController
-        launcherWindowController.showWindow(self)
+//        launcherWindowController.showWindow(self)
         
         // Show left status window
         let leftStatusWindowController = NSStoryboard(name: "Main", bundle: nil).instantiateController(withIdentifier: NSStoryboard.SceneIdentifier("Left Status Controller")) as! NSWindowController
@@ -283,7 +287,7 @@ class StatusViewController: NSViewController, EventSubscriber {
         Timer.scheduledTimer(timeInterval: 10, target: self, selector: #selector(self.updateWifi), userInfo: nil, repeats: true)
         updateWifi();
 
-        
+        print(self.view.frame)
         
     
         
